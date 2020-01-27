@@ -1,0 +1,16 @@
+{
+  "name": "mvl-blank-project",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/mvlblankproject.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "mvloader": "git+https://github.com/mvoevodskiy/mvloader.git",
+    "mvtools": "git+https://github.com/mvoevodskiy/mvtools.git"
+  },
+  "devDependencies": {},
+  "author": "mvoevodskiy",
+  "license": "ISC"
+}
