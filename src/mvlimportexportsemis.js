@@ -1,24 +1,27 @@
 const MVLoaderBase = require('mvloader/src/mvloaderbase');
+const MVLExcelHandler = require('mvl-excel-handler');
 
-class MVLBlankSemis extends MVLoaderBase{
+class MVLImportExportSemis extends MVLoaderBase{
     static exportConfig = {
         ext: {
             classes: {
                 semis: {},
-                controllers: {},
-                handlers: {},
+                controllers: {
+                    mvlbaImportExportController: require('./controllers/mvlimportexportcontroller')
+                },
+                handlers: {
+                    ExcelHandler: MVLExcelHandler,
+                },
             },
             configs: {
+                semis: {},
                 controllers: {},
                 handlers: {
                     DBHandler: {
                         sequelize: {},
-                        models: {
-                            // MVLExampleModel: require('./models/mvlblankexample'),
-                        }
+                        models: {}
                     }
                 },
-                semis: {},
             }
         },
         db: {},
@@ -42,4 +45,4 @@ class MVLBlankSemis extends MVLoaderBase{
 
 }
 
-module.exports = MVLBlankSemis;
+module.exports = MVLImportExportSemis;

@@ -1,14 +1,15 @@
 {
-  "name": "mvl-blank-project",
+  "name": "mvl-import-export-semis",
   "version": "0.0.1",
   "description": "",
-  "main": "src/mvlblankproject.js",
+  "main": "src/mvlimportexportsemis.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "mvloader": "git+https://github.com/mvoevodskiy/mvloader.git",
-    "mvtools": "git+https://github.com/mvoevodskiy/mvtools.git"
+    "mvtools": "git+https://github.com/mvoevodskiy/mvtools.git",
+    "mvl-excel-handler": "git+https://github.com/mvoevodskiy/mvl-excel-handler.git"
   },
   "devDependencies": {},
   "author": "mvoevodskiy",
