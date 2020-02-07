@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "mvloader": "git+https://github.com/mvoevodskiy/mvloader.git",
-    "mvtools": "git+https://github.com/mvoevodskiy/mvtools.git",
-    "mvl-excel-handler": "git+https://github.com/mvoevodskiy/mvl-excel-handler.git"
+    "mvl-excel-handler": "^1.0.0",
+    "mvloader": "^1.0.0",
+    "mvtools": "^1.0.1"
   },
   "devDependencies": {},
   "author": "mvoevodskiy",
